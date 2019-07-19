@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global string -->
+    <string name="about_description"><![CDATA[    隐身浏览器是由开发人员开发的 <a href="https://twitter.com/waqasyounis334">Waqas Younis</a> 个别地.<br><br>
+       此浏览器的下载功能是开源名称Download Navi。 <br>
+       您可以在此处为项目做出贡献： <a href="https://github.com/TachibanaGeneralLaboratories/download-navi">https://github.com/TachibanaGeneralLaboratories/download-navi</a>
+            <br>    <br>     <a href="https://tictactoe-brain-games.blogspot.com/2018/10/incognito-browser-privacy-policy.html">Privacy Policy</a>]]>
+    </string>
+
+
+    <string name="app_name">Incognito Browser</string>
+    <string name="foreground_notification">前台通知</string>
+    <string name="download_running">进行中</string>
+    <string name="finished">已完成</string>
+    <string name="shutdown">关闭</string>
+    <!-- 1 d. 1 h. 1 m -->
+    <string name="elapsed_time_format_d_h_mm">%1$d 天 %2$d 小时 %3$d 分</string>
+    <!-- 1 h. 1 m. 1 s -->
+    <string name="elapsed_time_format_h_mm_ss">%1$d 小时 %2$d 分 %3$d 秒</string>
+    <!-- 1 m. 1 s -->
+    <string name="elapsed_time_format_mm_ss">%1$d 分 %2$d 秒</string>
+    <!-- 1 s -->
+    <string name="elapsed_time_format_ss">%1$d 秒</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="unmetered_connections_only">只使用不按流量计费的连接</string>
+    <string name="connect">连接</string>
+    <string name="add">添加</string>
+    <string name="not_available">N/A</string>
+    <string name="open_navigation_drawer">打开导航抽屉</string>
+    <string name="close_navigation_drawer">关闭导航抽屉</string>
+    <string name="error_template">错误： %1$s</string>
+    <string name="pause">暂停</string>
+    <string name="resume">恢复</string>
+    <string name="stop">停止</string>
+    <string name="stopped">已停止</string>
+    <string name="pending">待处理</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="menu">菜单</string>
+    <string name="select_all">全选</string>
+    <string name="share_via">分享方式</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="error">错误</string>
+    <string name="file">文件</string>
+    <string name="folder">目录</string>
+    <string name="downloading_metadata">下载元数据</string>
+    <string name="all">所有</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="close">关闭</string>
+    <string name="redownload">重新下载</string>
+    <string name="Default">默认</string>
+    <string name="warning">警告</string>
+    <string name="apply">应用</string>
+    <string name="report">反馈</string>
+    <!-- Permission dialog -->
+    <string name="perm_denied_title">权限不足</string>
+    <string name="perm_denied_warning">如果没有此权限，应用无法在某些设备和Android版本的内存中保存文件。该应用程序将无法正常工作。您确定要拒绝此权限吗？</string>
+    <!-- Download progress notification -->
+    <string name="download_ticker_notify" formatted="false">正在下载 %1$s</string>
+    <!-- Foreground notification -->
+    <string name="app_running_in_the_background">Incognito Downloader 正在后台运行</string>
+    <string name="pause_all">全部暂停</string>
+    <string name="resume_all">全部恢复</string>
+    <!-- Finish notification -->
+    <string name="download_finished_notify">下载完成</string>
+    <string name="open_using">打开方式</string>
+    <!-- Pending notification -->
+    <string name="download_in_queue_ticker_notify" formatted="false">%1$s 排队</string>
+    <string name="waiting_for_network">等待网络</string>
+    <string name="waiting_for_retry">等待重试</string>
+    <!-- Error notification -->
+    <string name="download_error_notify_title">下载出错</string>
+    <!-- Applying params notification -->
+    <string name="applying_params_title">应用参数</string>
+    <string name="applying_params_for_downloads">应用参数进行下载</string>
+    <string name="applying_params_error_title" formatted="false">应用参数错误 %1$s</string>
+    <!-- Add download dialog -->
+    <string name="add_download">添加下载</string>
+    <string name="download_link">链接</string>
+    <string name="download_name">名称</string>
+    <string name="download_size" formatted="false">大小: %1$s</string>
+    <string name="download_retry">重试</string>
+    <string name="download_advanced">高级</string>
+    <string name="download_user_agent">用户代理</string>
+    <string name="download_error_empty_link">请输入链接</string>
+    <string name="download_error_empty_name">请输入名称</string>
+    <string name="download_error_no_enough_free_space" formatted="false">可用空间不足： %1$s 可用，但文件大小为 %2$s</string>
+    <string name="download_error_name_is_not_correct" formatted="false">正确的名称是 \"%1$s\"</string>
+    <string name="fetch_error_default_fmt" formatted="false">错误: %1$s</string>
+    <string name="fetch_error_invalid_url" formatted="false">网址无效: %1$s</string>
+    <string name="fetch_error_network_disconnected">网络已断开</string>
+    <string name="fetch_error_http_response" formatted="false">错误：服务器返回 HTTP %1$d 错误代码</string>
+    <string name="fetch_error_io" formatted="false">IO 错误： %1$s</string>
+    <string name="unable_to_open_folder">无法打开所选文件夹。请尝试选择其他文件夹</string>
+    <string name="unable_to_create_file">无法创建文件。请尝试选择其他文件夹</string>
+    <string name="partial_download_not_supported">此次下载不支持暂停和多线程分段下载</string>
+    <string name="download_pieces_number_title">分块数</string>
+    <string name="download_description">描述</string>
+    <string name="select_folder_to_save">选择要保存的目录</string>
+    <string name="path">路径</string>
+    <string name="storage_free_space" formatted="false">可用空间: %1$s</string>
+    <string name="add_download_error_invalid_url">无法添加下载：网址无效</string>
+    <!-- Add user agent dialog -->
+    <string name="dialog_add_user_agent_title">添加用户代理</string>
+    <!-- Main activity -->
+    <string name="fragment_title_queued">队列中</string>
+    <string name="fragment_title_completed">已完成</string>
+    <string name="download_list_empty">没有下载任务</string>
+    <string name="share_url">分享网址</string>
+    <!-- Navigation drawer -->
+    <!-- Category -->
+    <string name="drawer_category">类型</string>
+    <string name="drawer_category_others">其它</string>
+    <string name="drawer_category_documents">文档</string>
+    <string name="drawer_category_images">图片</string>
+    <string name="drawer_category_video">视频</string>
+    <string name="drawer_category_apk">软件包</string>
+    <string name="drawer_category_audio">音频</string>
+    <string name="drawer_category_archives">压缩文件</string>
+    <!-- Status -->
+    <string name="drawer_status">状态</string>
+    <string name="drawer_status_running">运行中</string>
+    <string name="drawer_status_stopped">已停止</string>
+    <!-- Date added -->
+    <string name="drawer_date_added">添加日期</string>
+    <string name="drawer_date_added_today">今天</string>
+    <string name="drawer_date_added_yesterday">昨天</string>
+    <string name="drawer_date_added_week">周</string>
+    <string name="drawer_date_added_month">月</string>
+    <string name="drawer_date_added_year">年</string>
+    <!-- Sorting -->
+    <string name="drawer_sorting">排序</string>
+    <string name="drawer_sorting_date_added">添加日期</string>
+    <string name="drawer_sorting_name">名称</string>
+    <string name="drawer_sorting_size">大小</string>
+    <string name="drawer_sorting_category">类别</string>
+    <string name="drawer_sorting_no_sorting">不排序</string>
+    <!-- Download list item -->
+    <!-- downloaded/total • ETA • speed -->
+    <string name="download_queued_progress_template" formatted="false">%1$s/%2$s \u2022 %3$s \u2022 %4$s/s</string>
+    <!-- downloaded/total • status -->
+    <string name="download_queued_template" formatted="false">%1$s/%2$s \u2022 %3$s</string>
+    <!-- hostname • total -->
+    <string name="download_finished_template" formatted="false">%1$s \u2022 %2$s</string>
+    <string name="download_details">详情</string>
+    <string name="deleting">删除</string>
+    <string name="delete_selected_download">删除所选下载？此操作无法撤消</string>
+    <string name="delete_selected_downloads">删除所选下载？此操作无法撤消</string>
+    <string name="delete_with_downloaded_file">同时删除已下载文件</string>
+    <!-- Filemanager dialog -->
+    <string name="dir_chooser_title">目录选择</string>
+    <string name="file_chooser_title">文件选择</string>
+    <string name="dialog_new_folder_title">新建文件夹</string>
+    <string name="error_dialog_new_folder">无法创建新文件夹</string>
+    <string name="error_open_dir">无法打开文件夹</string>
+    <string name="home_directory">主页</string>
+    <!-- name (size) -->
+    <string name="permission_denied">权限不足</string>
+    <string name="save_file">保存文件</string>
+    <string name="file_name">文件名</string>
+    <string name="error_file_exists">文件已存在。要覆盖吗？</string>
+    <string name="file_name_is_empty">文件名不能为空</string>
+    <string name="system_manager">系统文件管理器</string>
+    <string name="device_does_not_support_this_feature">您的设备不支持此功能</string>
+    <string name="system_file_manager_not_found">找不到系统文件管理器</string>
+    <string name="replace_file">替换文件</string>
+    <!-- Details download dialog -->
+    <string name="detail_downloaded">已下载</string>
+    <!-- downloaded/total (percent) -->
+    <string name="detail_downloaded_format" formatted="false">%1$s/%2$s (%3$d%%)</string>
+    <string name="detail_pieces">线程</string>
+    <string name="detail_date_added">添加日期</string>
+    <string name="detail_user_agent">用户代理</string>
+    <string name="detail_md5_hash_sum">MD5</string>
+    <string name="detail_sha256_hash_sum">SHA-256</string>
+    <string name="calculate">计算</string>
+    <!-- Error report -->
+    <!-- Send text to clipboard -->
+    <string name="send_text_to_clipboard">复制</string>
+    <string name="text_copied_to_clipboard">文本已复制到剪贴板</string>
+    <!-- Settings -->
+    <!-- Headers -->
+    <string name="pref_header_behavior">行为设置</string>
+    <string name="pref_header_storage">存储</string>
+    <!-- Appearance settings -->
+    <string name="pref_theme_category">主题设置</string>
+    <string name="pref_theme_title">主题</string>
+    <string-array name="pref_theme_entries">
+        <item>亮色</item>
+        <item>暗色</item>
+        <item>黑色</item>
+    </string-array>
+    <string name="pref_notification_category">通知设置</string>
+    <string name="pref_progress_notify_title">进度通知</string>
+    <string name="pref_finish_notify_title">完成通知</string>
+    <string name="pref_pending_notify_title">待下载通知</string>
+    <string name="pref_play_sound_notify_title">播放声音</string>
+    <string name="pref_notify_sound_title">通知声音</string>
+    <string name="pref_led_indicator_notify_title">LED指示灯</string>
+    <string name="pref_led_indicator_color_notify_title">LED指示灯颜色</string>
+    <string name="pref_vibration_notify_title">振动</string>
+    <string name="theme_settings_apply_after_reboot">主题设置将在重新启动软件后生效</string>
+    <!-- Behavior settings -->
+    <string name="pref_autostart_title">自动启动</string>
+    <string name="pref_autostart_summary">启动设备后运行应用程序并开始下载未被手动暂停的任务</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="pref_umnetered_connections_only_title">只使用不按流量计费的连接</string>
+    <string name="pref_umnetered_connections_only_summary">仅允许未计量的连接下载(例如Wi-Fi或以太网)</string>
+    <string name="pref_power_management_category">电源管理</string>
+    <string name="pref_cpu_do_not_sleep_title">保持 CPU 唤醒</string>
+    <string name="pref_cpu_do_not_sleep_summary">启用此功能会增加电池使用量。如果屏幕关闭时下载速度降低，请启用此选项</string>
+    <string name="pref_download_only_when_charging_title">仅在充电时下载</string>
+    <string name="pref_download_only_when_charging_summary">如果启用，则仅在充电期间进行下载。未连接充电器时，所有下载都会暂停</string>
+    <string name="pref_battery_control_title">电池控制</string>
+    <string name="pref_custom_battery_control_title">自定义电池百分比</string>
+    <string name="pref_custom_battery_control_value_title">电池控制百分比</string>
+    <string name="pref_battery_control_summary" formatted="false">在电量低于 %1$d%% 时暂停所有下载。此限制在充电时不适用</string>
+    <string name="pref_custom_battery_control_summary" formatted="false">自定义一个百分比值，当电量低于此阈值时暂停下载。启用此选项将忽略默认的 %1$d%% 阈值</string>
+    <string name="pref_custom_battery_control_dialog_summary" formatted="false">在下载过程中，为应用程序设置自定义电池百分比将对电池寿命产生负面影响。你确定要启用它吗？</string>
+    <string name="pref_enable_roaming_title">允许漫游</string>
+    <string name="pref_enable_roaming_summary">仅在设备未漫游时下载</string>
+    <string name="pref_max_active_downloads_title">最大同时下载任务</string>
+    <string name="pref_max_download_retries_title">最大下载重试次数</string>
+    <string name="pref_max_download_retries_dialog_msg">0  - 不重试</string>
+    <string name="pref_replace_duplicate_downloads_title">替换重复下载</string>
+    <string name="pref_replace_duplicate_downloads_summary">替换已添加到列表中的重复下载（使用相同的URL）</string>
+    <string name="pref_auto_connect_title">自动连接</string>
+    <string name="pref_auto_connect_summary">在打开添加下载对话框时自动连接下载地址</string>
+    <!-- Storage settings -->
+    <string name="pref_save_downloads_in_title">下载保存目录</string>
+    <string name="pref_move_after_download_title">下载后移动</string>
+    <string name="pref_move_after_download_in_title">下载后移动目录</string>
+    <string name="pref_delete_file_if_error_title">发生错误后删除文件</string>
+    <string name="pref_preallocate_disk_space_title">为下载的文件预分配磁盘空间</string>
+    <string name="pref_preallocate_disk_space_summary">只在 Android 5.0 Lollipop 及以上版本可用</string>
+    <string name="cannot_open_file_chooser">无法打开文件选择器</string>
+    <string name="confused_desc">如果您对任何事情不确定，请告诉我们！</string>
+    <string name="default_search_engine_desc">在搜索网络时选择默认搜索引擎</string>
+    <string name="downloas">下载</string>
+    <string name="enjoy_using_our_app">享受使用我们的应用？</string>
+    <string name="facebook_firebase_consent_desc">我们尽最大努力为用户提供出色的用户体验。 这就是我们通过Firebase和Facebook监控我们的应用程序的原因。 这可能会收集有关应用程序的一些分析数据。</string>
+    <string name="feedback_desc">如有任何错误或建议，请写信给我们。 我们会尽快回复您</string>
+    <string name="forward">向前</string>
+    <string name="happy_desc">我们很想知道如何让Incognito Browser变得更好。 如果您在Google Play商店中留下评论，我们将非常感激</string>
+    <string name="how_do_you_feel">你觉得这个应用程序怎么样？</string>
+    <string name="rate">率</string>
+    <string name="rate_desc">让我们知道您对此应用的看法</string>
+    <string name="refresh">刷新</string>
+    <string name="remove_ads_desc">摆脱整个应用程序中烦人的广告终生[50％折扣]</string>
+    <string name="search_anything">输入网址或在此搜索任何内容</string>
+    <string name="share_desc">与好友分享这个应用程序</string>
+    <string name="share_this_app_with">抓住这个神奇且易于使用的隐身网络浏览器，在这里：</string>
+    <string name="unhappy_desc">你能分享一下让你不开心的事吗？ 这样我们就可以修复它并使您的体验变得愉快</string>
+    <string name="user_agent_desc">更改用户代理。 它允许您模仿其他浏览器</string>
+    <string name="enable_images">启用图像</string>
+    <string name="enable_java_script">启用JavaScript</string>
+    <string name="exit_app">出口</string>
+    <string name="extras">附加功能</string>
+    <string name="full_screen_mode">全屏模式</string>
+    <string name="go_premium">去高级</string>
+    <string name="happy">快乐</string>
+    <string name="home">家</string>
+    <string name="network_unavailable">网络不可用</string>
+    <string name="open">打开</string>
+    <string name="open_in_new">在新标签页中打开</string>
+    <string name="post_on_facebook">在Facebook上发布</string>
+    <string name="save">下载图片</string>
+    <string name="search_privately">私下搜索</string>
+    <string name="submit">提交</string>
+    <string name="tell_your_friend">告诉你的朋友</string>
+    <string name="tweet_about_us">关于我们的推文！</string>
+    <string name="unhappy">不快乐</string>
+    <string name="user_agent">用户代理</string>
+    <string name="write_a_review">写评论</string>
+    <string name="Share">分享</string>
+    <string name="_continue">继续</string>
+    <string name="browsing_experience">浏览体验</string>
+    <string name="choose_one">选一个</string>
+    <string name="choose_upload">上传</string>
+    <string name="confused">困惑</string>
+    <string name="contact_our_team">联系我们的团队</string>
+    <string name="copied">复制</string>
+    <string name="copy">复制</string>
+    <string name="copyUrl">复制网址</string>
+    <string name="default_search_engine">默认搜索引擎</string>
+    <string name="default_user_agent">默认用户引擎</string>
+    <string name="feedback">反馈</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="view">视图</string>
+    <string name="coffee_minimum_error_message">对不起，开发商所在国家/地区的最低咖啡价格是2美元</string>
+    <string name="donation_desc">请为开发人员购买咖啡，让他保持活跃状态并继续工作一小时，继续改进这款应用</string>
+    <string name="donation_title">开发人员渴了</string>
+    <string name="help_him">帮助他</string>
+    <string name="help_us">帮我们</string>
+    <string name="help_us_desc">帮助我们改进应用程序。 它不会超过30秒</string>
+    <string name="is_amazing">是惊人的</string>
+    <string name="is_good_have_a_look">很好，看看吧！</string>
+    <string name="let_go">我们走吧</string>
+    <string name="let_him_die">让他死</string>
+    <string name="not_now">现在不要</string>
+    <string name="press_back_again">请再次单击BACK退出</string>
+    <string name="purchased_desc">“您已成功购买此产品\\n如果您仍然看到那些令人讨厌的广告，请告诉我们。您可以在此发送电子邮件给我们：andbullofficial@gmail.com \\n \\n谢谢”</string>
+    <string name="purchased_title">大</string>
+    <string name="thank_you">谢谢 ：）</string>
+    <string name="welcome_note">您在隐身浏览器中查看的页面不会留下来。 退出应用程序后，所有内容都将被删除，包括浏览历史记录，缓存，Cookie等。但是，将保留下载的文件及其历史记录。</string>
+    <string name="welcome_to_incognito_browser">欢迎使用隐身浏览器</string>
+</resources>

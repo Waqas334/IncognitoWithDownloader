@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/searchViewNormal"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="6dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp"
+                        android:background="#f8f4f4f4" />
+
+                    <TextView
+                        android:id="@+id/searchViewTextTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center"
+                        android:hint="@string/search_anything"
+                        android:maxLines="1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="15sp"
+                        tools:ignore="NestedWeights"
+                        tools:text="www.google.com.pk" />
+                    <!--                        custom:srcCompat="@drawable/refresh_page_icon"
+                    -->
+                    <ImageView
+                        android:id="@+id/refreshIconMain"
+                        app:srcCompat="@drawable/refresh_page_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/actionBarItemBackground"
+                        android:clickable="true"
+                        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <include
+                layout="@layout/serach_layout_focus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                tools:visibility="invisible" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#32555555" />
+
+            <ProgressBar
+                android:id="@+id/mainProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="0dp"
+                android:visibility="invisible" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

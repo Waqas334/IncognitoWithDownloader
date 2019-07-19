@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/no_history"
+                android:layout_marginLeft="8dp"
+                android:tint="#FFCCCCCC"
+                tools:ignore="ContentDescription" />
+
+            <TextView   android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                tools:text="google"
+                android:id="@+id/serachBarText"
+                android:layout_marginLeft="5dp"
+                android:textColor="#313131"
+                android:maxLines="1">
+
+
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

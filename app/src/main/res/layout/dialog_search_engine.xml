@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.androidbull.incognito.browser.dialgos.UserAgentDialog">
+
+    <TextView
+        android:id="@+id/tvUserAgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_search_engine"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/userAgentRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUserAgent"
+        android:padding="20dp">
+
+
+        <RadioButton
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/google"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/bing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/bing_search_engine"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/yahoo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/yahoo_search_engine"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/aol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/aol_search_engine"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/duckduckgo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/duckduckgo_search_engine"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.androidbull.incognito.browser.dialgos.UserAgentDialog">
+
+    <TextView
+        android:id="@+id/tvUserAgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_agent"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/userAgentRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvUserAgent"
+        android:padding="20dp">
+
+
+        <RadioButton
+            android:id="@+id/androidBrowser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/android_browser"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/chrome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/chrome"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/operaMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/opera_mobile"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/internetExplorer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/internet_explorer"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/safari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/safari"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/defaultAgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/default_user_agent"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+</RelativeLayout>

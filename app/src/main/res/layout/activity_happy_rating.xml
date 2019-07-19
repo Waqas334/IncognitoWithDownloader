@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".browser.Rating.HappyRatingActivity">
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/ll_happy_buttons"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    android:text="@string/happy_desc"
+    android:textColor="@android:color/black"
+    android:textSize="25sp"/>
+
+
+  <LinearLayout
+    android:id="@+id/ll_happy_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <Button
+      style="@style/surveyButtonStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:onClick="writeReview"
+      android:text="@string/write_a_review"/>
+    <Button
+      style="@style/surveyButtonStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:onClick="contactUS"
+      android:text="@string/contact_our_team"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="@string/tell_your_friend"
+      android:textColor="@android:color/black"/>
+    <Button
+      style="@style/surveyButtonStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:onClick="tweetAboutRabbit"
+      android:text="@string/tweet_about_us"/>
+    <Button
+      style="@style/surveyButtonStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:onClick="tellYourFriendFb"
+      android:text="@string/post_on_facebook"
+      />
+
+  </LinearLayout>
+
+
+</RelativeLayout>

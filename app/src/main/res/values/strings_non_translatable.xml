@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Settings -->
+    <!-- Appearance settings -->
+    <string name="pref_theme_light_value" translatable="false">0</string>
+    <string name="pref_theme_dark_value" translatable="false">1</string>
+    <string name="pref_theme_black_value" translatable="false">2</string>
+    <string-array name="pref_theme_entries_value" translatable="false">
+        <item>@string/pref_theme_light_value</item>
+        <item>@string/pref_theme_dark_value</item>
+        <item>@string/pref_theme_black_value</item>
+    </string-array>
+
+    <!-- About dialog -->
+    <string name="about_changelog_link" translatable="false">https://github.com/TachibanaGeneralLaboratories/download-navi/blob/master/NEWS</string>
+    <string name="remove_ads_sku" translatable="false">remove.ads</string>
+    <string name="defaultSearchEngine" translatable="false">https://www.google.com.pk/search?q=</string>
+    <string name="bing" translatable="false">https://www.bing.com/search?q=</string>
+    <string name="yahoo" translatable="false">https://search.yahoo.com/search?ei=</string>
+    <string name="aol" translatable="false">https://search.aol.com/aol/search?q=</string>
+    <string name="duckduckgo" translatable="false">https://duckduckgo.com/?q=</string>
+    <string name="androidBrowserOnWin7" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="chromeAndroid" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="operaMobile" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="internetExplorer" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="safariIos" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="defaultUserAgent" translatable="false">Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</string>
+    <string name="google" translatable="false">Google</string>
+    <string name="bing_search_engine" translatable="false">Bing</string>
+    <string name="yahoo_search_engine" translatable="false">Yahoo</string>
+    <string name="aol_search_engine" translatable="false">AOL</string>
+    <string name="duckduckgo_search_engine" translatable="false">DuckDuckGo</string>
+    <string name="android_browser" translatable="false">Android Browser</string>
+    <string name="chrome" translatable="false">Chrome</string>
+    <string name="opera_mobile" translatable="false">Opera Mobile</string>
+    <string name="internet_explorer" translatable="false">Internet Explorer</string>
+    <string name="safari" translatable="false">Safari</string>
+
+
+</resources>

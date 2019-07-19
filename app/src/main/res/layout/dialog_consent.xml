@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+  <TextView
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Help us make the app better"
+    android:textColor="@android:color/black"
+    android:textSize="20sp"/>
+  <TextView
+    android:id="@+id/tv_consent_desc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="@string/facebook_firebase_consent_desc"
+    android:textColor="@android:color/black"/>
+  <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cb_firebase_consnet"
+    android:layout_margin="10dp"
+    android:checked="true"
+    android:text="Continue with Firebase"/>
+  <CheckBox
+    android:id="@+id/cb_facebook_consnet"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:checked="true"
+    android:text="Continue with Facebook"/>
+  <Button
+    style="@style/submitButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/btnContinue"
+    android:layout_gravity="center"
+    android:text="@string/_continue"/>
+</LinearLayout>

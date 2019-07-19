@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global string -->
+    <!--Spanish-->
+    <string name="about_description"><![CDATA[    Incognito Browser es desarrollado por <a href="https://twitter.com/waqasyounis334">Waqas Younis</a> individualmente.<br><br>
+        La función de descarga de este navegador es el nombre de código abierto como Descargar Navi.<br>
+        Puedes contribuir al proyecto aquí: <a href="https://github.com/TachibanaGeneralLaboratories/download-navi">https://github.com/TachibanaGeneralLaboratories/download-navi</a>
+            <br>    <br>     <a href="https://tictactoe-brain-games.blogspot.com/2018/10/incognito-browser-privacy-policy.html">Política de privacidad</a>]]>
+    </string>
+    <string name="app_name">Incognito Browser</string>
+    <string name="foreground_notification">Notificación en primer plano</string>
+    <string name="download_running">En progreso</string>
+    <string name="finished">Terminado</string>
+    <string name="shutdown">Apagar</string>
+    <!-- 1 d. 1 h. 1 m -->
+    <string name="elapsed_time_format_d_h_mm">%1$d d. %2$d h. %3$d m</string>
+    <!-- 1 h. 1 m. 1 s -->
+    <string name="elapsed_time_format_h_mm_ss">%1$d h. %2$d m. %3$d s</string>
+    <!-- 1 m. 1 s -->
+    <string name="elapsed_time_format_mm_ss">%1$d m. %2$d s</string>
+    <!-- 1 s -->
+    <string name="elapsed_time_format_ss">%1$d s</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="unmetered_connections_only">Sólo conexiones no medidas</string>
+    <string name="connect">Conectar</string>
+    <string name="add">Añadir</string>
+    <string name="not_available">N/A</string>
+    <string name="open_navigation_drawer">Abrir cajón de navegación</string>
+    <string name="close_navigation_drawer">Cerrar cajón de navegación</string>
+    <string name="error_template">Error: %1$s</string>
+    <string name="pause">Pausa</string>
+    <string name="resume">Reanudar</string>
+    <string name="stop">Detener</string>
+    <string name="stopped">Detenido</string>
+    <string name="pending">Pendiente</string>
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="menu">Menú</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="share_via">Compartir vía</string>
+    <string name="no">No</string>
+    <string name="yes">Sí</string>
+    <string name="error">Error</string>
+    <string name="file">Archivo</string>
+    <string name="folder">Carpeta</string>
+    <string name="downloading_metadata">Descargando metadatos</string>
+    <string name="all">Todo</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Ajustes</string>
+    <string name="about">Acerca</string>
+    <string name="close">Cerrar</string>
+    <string name="redownload">Volver a descargar</string>
+    <string name="Default">Por defecto</string>
+    <string name="warning">Advertencia</string>
+    <string name="apply">Aplicar</string>
+    <string name="report">Informe</string>
+    <!-- Permission dialog -->
+    <string name="perm_denied_title">Permiso denegado</string>
+    <string name="perm_denied_warning">Sin este permiso la aplicación no puede guardar archivos en memoria en algunos dispositivos y versiones de Android. La aplicación no funcionará correctamente. ¿Realmente desea denegar este permiso?</string>
+    <!-- Download progress notification -->
+    <string name="download_ticker_notify" formatted="false">Descargando %1$s</string>
+    <!-- Foreground notification -->
+    <string name="app_running_in_the_background">Incognito Downloader se está ejecutando en segundo plano</string>
+    <string name="pause_all">Pausar todo</string>
+    <string name="resume_all">Reanudar todo</string>
+    <!-- Finish notification -->
+    <string name="download_finished_notify">Descarga finalizada</string>
+    <string name="open_using">Abrir usando</string>
+    <!-- Pending notification -->
+    <string name="download_in_queue_ticker_notify" formatted="false">%1$s en cola</string>
+    <string name="waiting_for_network">Esperando a la red</string>
+    <string name="waiting_for_retry">Esperando a reintentar</string>
+    <!-- Error notification -->
+    <string name="download_error_notify_title">Error de descarga</string>
+    <!-- Applying params notification -->
+    <string name="applying_params_title">Aplicando parámetros</string>
+    <string name="applying_params_for_downloads">Aplicando parámetros para descargas</string>
+    <string name="applying_params_error_title" formatted="false">Error de parámetros para %1$s</string>
+    <!-- Add download dialog -->
+    <string name="add_download">Añadir descarga</string>
+    <string name="download_link">Enlace</string>
+    <string name="download_name">Nombre</string>
+    <string name="download_size" formatted="false">Tamaño: %1$s</string>
+    <string name="download_retry">Reintentar</string>
+    <string name="download_advanced">Avanzado</string>
+    <string name="download_user_agent">Agente de usuario</string>
+    <string name="download_error_empty_link">Por favor, introduzca enlace</string>
+    <string name="download_error_empty_name">Por favor, introduzca nombre</string>
+    <string name="download_error_no_enough_free_space" formatted="false">No hay suficiente espacio libre: %1$s libre, pero el tamaño del archivo es %2$s</string>
+    <string name="download_error_name_is_not_correct" formatted="false">El nombre correcto es \"%1$s\"</string>
+    <string name="fetch_error_default_fmt" formatted="false">Error: %1$s</string>
+    <string name="fetch_error_invalid_url" formatted="false">URL inválida: %1$s</string>
+    <string name="fetch_error_network_disconnected">red desconectada</string>
+    <string name="fetch_error_http_response" formatted="false">Error: el servidor devolvió código HTTP %1$d</string>
+    <string name="fetch_error_io" formatted="false">Error de ES: %1$s</string>
+    <string name="unable_to_open_folder">No se puede abrir la carpeta seleccionada. Por favor, intente seleccionar otra carpeta</string>
+    <string name="unable_to_create_file">No se puede crear el archivo.  Por favor, intente seleccionar otra carpeta</string>
+    <string name="partial_download_not_supported">Esta descarga no soporta pausar y descargar por segmentos</string>
+    <string name="download_pieces_number_title">Número de segmentos</string>
+    <string name="download_description">Descripción</string>
+    <string name="select_folder_to_save">Seleccione la carpeta para guardar</string>
+    <string name="path">Ruta</string>
+    <string name="storage_free_space" formatted="false">Espacio libre: %1$s</string>
+    <string name="add_download_error_invalid_url">No se puede agregar la descarga: URL inválida</string>
+    <!-- Add user agent dialog -->
+    <string name="dialog_add_user_agent_title">Agregar agente de usuario</string>
+    <!-- Main activity -->
+    <string name="fragment_title_queued">En cola</string>
+    <string name="fragment_title_completed">Terminado</string>
+    <string name="download_list_empty">Sin descargas</string>
+    <string name="share_url">Compartir URL</string>
+    <!-- Navigation drawer -->
+    <!-- Category -->
+    <string name="drawer_category">Categoría</string>
+    <string name="drawer_category_others">Otros</string>
+    <string name="drawer_category_documents">Documentos</string>
+    <string name="drawer_category_images">Imágenes</string>
+    <string name="drawer_category_video">Video</string>
+    <string name="drawer_category_apk">APK</string>
+    <string name="drawer_category_audio">Audio</string>
+    <string name="drawer_category_archives">Archivos</string>
+    <!-- Status -->
+    <string name="drawer_status">Estado</string>
+    <string name="drawer_status_running">En ejecución</string>
+    <string name="drawer_status_stopped">Detenido</string>
+    <!-- Date added -->
+    <string name="drawer_date_added">Ordenar por fecha</string>
+    <string name="drawer_date_added_today">Hoy</string>
+    <string name="drawer_date_added_yesterday">Ayer</string>
+    <string name="drawer_date_added_week">Esta semana</string>
+    <string name="drawer_date_added_month">Mes</string>
+    <string name="drawer_date_added_year">Año</string>
+    <!-- Sorting -->
+    <string name="drawer_sorting">Clasificación</string>
+    <string name="drawer_sorting_date_added">Fecha de adición</string>
+    <string name="drawer_sorting_name">Nombre</string>
+    <string name="drawer_sorting_size">Tamaño</string>
+    <string name="drawer_sorting_category">Categoría</string>
+    <string name="drawer_sorting_no_sorting">Sin clasificación</string>
+    <!-- Download list item -->
+    <!-- downloaded/total • ETA • speed -->
+    <string name="download_queued_progress_template" formatted="false">%1$s/%2$s \u2022 %3$s \u2022 %4$s/s</string>
+    <!-- downloaded/total • status -->
+    <string name="download_queued_template" formatted="false">%1$s/%2$s \u2022 %3$s</string>
+    <!-- hostname • total -->
+    <string name="download_finished_template" formatted="false">%1$s \u2022 %2$s</string>
+    <string name="download_details">Detalles</string>
+    <string name="deleting">Eliminando</string>
+    <string name="delete_selected_download">¿Eliminar la descarga seleccionada? Esta operación no se puede deshacer</string>
+    <string name="delete_selected_downloads">¿Eliminar las descargas seleccionadas? Esta operación no se puede deshacer</string>
+    <string name="delete_with_downloaded_file">Eliminar con el archivo descargado</string>
+    <!-- Filemanager dialog -->
+    <string name="dir_chooser_title">Selección de carpeta</string>
+    <string name="file_chooser_title">Selección de archivo</string>
+    <string name="dialog_new_folder_title">Nueva carpeta</string>
+    <string name="error_dialog_new_folder">No se puede crear una nueva carpeta</string>
+    <string name="error_open_dir">No se puede abrir la carpeta</string>
+    <string name="home_directory">Inicio</string>
+    <!-- name (size) -->
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="save_file">Guardar el archivo</string>
+    <string name="file_name">Nombre del archivo</string>
+    <string name="error_file_exists">El archivo ya existe. ¿Reemplazar?</string>
+    <string name="file_name_is_empty">El nombre del archivo no puede estar vacío</string>
+    <string name="system_manager">Administrador de sistemas</string>
+    <string name="device_does_not_support_this_feature">Su dispositivo no es compatible con esta característica</string>
+    <string name="system_file_manager_not_found">Administrador de archivos del sistema no encontrado</string>
+    <string name="replace_file">Reemplazar archivo</string>
+    <!-- Details download dialog -->
+    <string name="detail_downloaded">Descargado</string>
+    <!-- downloaded/total (percent) -->
+    <string name="detail_downloaded_format" formatted="false">%1$s/%2$s (%3$d%%)</string>
+    <string name="detail_pieces">Piezas</string>
+    <string name="detail_date_added">Fecha de adición</string>
+    <string name="detail_user_agent">Agente de usuario</string>
+    <string name="detail_md5_hash_sum">MD5</string>
+    <string name="detail_sha256_hash_sum">SHA-256</string>
+    <string name="calculate">Calcular</string>
+    <!-- Error report -->
+    <!-- Send text to clipboard -->
+    <string name="send_text_to_clipboard">Copiar</string>
+    <string name="text_copied_to_clipboard">Texto copiado al portapapeles</string>
+    <!-- Settings -->
+    <!-- Headers -->
+    <string name="pref_header_behavior">Comportamiento</string>
+    <string name="pref_header_storage">Almacenamiento</string>
+    <!-- Appearance settings -->
+    <string name="pref_theme_category">Configuración de temas</string>
+    <string name="pref_theme_title">Temas</string>
+    <string-array name="pref_theme_entries">
+        <item>Claro</item>
+        <item>Oscuro</item>
+        <item>Negro</item>
+    </string-array>
+    <string name="pref_notification_category">Configuración de notificaciones</string>
+    <string name="pref_progress_notify_title">Notificación de progreso</string>
+    <string name="pref_finish_notify_title">Notificación de finalización de descarga</string>
+    <string name="pref_pending_notify_title">Notificación de descarga pendiente</string>
+    <string name="pref_play_sound_notify_title">Reproducir sonido</string>
+    <string name="pref_notify_sound_title">Sonido de notificación</string>
+    <string name="pref_led_indicator_notify_title">Indicador LED</string>
+    <string name="pref_led_indicator_color_notify_title">Color de indicador LED</string>
+    <string name="pref_vibration_notify_title">Vibración</string>
+    <string name="theme_settings_apply_after_reboot">La configuración del tema se aplicará después de reiniciar la aplicación</string>
+    <!-- Behavior settings -->
+    <string name="pref_autostart_title">Iniciar automáticamente</string>
+    <string name="pref_autostart_summary">Iniciar la aplicación después de encender el dispositivo y comenzar las descargas, si no se detuvieron manualmente</string>
+    <!-- A synonym for word "unmetered" - unlimited-->
+    <string name="pref_umnetered_connections_only_title">Solo conexiones sin medidor</string>
+    <string name="pref_umnetered_connections_only_summary">Descargar solo a través de conexiones sin medidor (por ejemplo, Wi-Fi o Ethernet)</string>
+    <string name="pref_power_management_category">Gestión de energía</string>
+    <string name="pref_cpu_do_not_sleep_title">Mantener CPU activo</string>
+    <string name="pref_cpu_do_not_sleep_summary">Activar esto aumentará el uso de la batería. Utilice esta opción si la velocidad de descarga se reduce cuando la pantalla se apaga</string>
+    <string name="pref_download_only_when_charging_title">Descargar sólo cuando se carga</string>
+    <string name="pref_download_only_when_charging_summary">If enabled, downloading will occur only during charging. All downloads will pause when not connected to charger</string>
+    <string name="pref_battery_control_title">Control de batería</string>
+    <string name="pref_custom_battery_control_title">Porcentaje de batería personalizado</string>
+    <string name="pref_custom_battery_control_value_title">Porcentaje de control de batería</string>
+    <string name="pref_battery_control_summary" formatted="false">Todas las descargas se pausarán si el nivel de batería va por debajo de %1$d%%. El límite no se aplica en el momento de cargar</string>
+    <string name="pref_custom_battery_control_summary" formatted="false">Set a custom percentage to pause downloads at if the battery drops below the given threshold. Enabling this will ignore the default %1$d%% threshold</string>
+    <string name="pref_custom_battery_control_dialog_summary" formatted="false">Setting a custom battery percentage for the application to watch for will have a negative impact on battery life while downloads are occurring. Are you sure you want to enable this?</string>
+    <string name="pref_enable_roaming_title">Enable roaming</string>
+    <string name="pref_enable_roaming_summary">Download only if the device isn\'t roaming</string>
+    <string name="pref_max_active_downloads_title">Maximum active downloads</string>
+    <string name="pref_max_download_retries_title">Maximum number of download retries</string>
+    <string name="pref_max_download_retries_dialog_msg">0 - without retries</string>
+    <string name="pref_replace_duplicate_downloads_title">Replace duplicate downloads</string>
+    <string name="pref_replace_duplicate_downloads_summary">Replace duplicate downloads (with the same URL) when added that are already in the list</string>
+    <string name="pref_auto_connect_title">Auto connect</string>
+    <string name="pref_auto_connect_summary">Auto connect when opening the add dialog</string>
+    <!-- Storage settings -->
+    <string name="pref_save_downloads_in_title">Save downloads in</string>
+    <string name="pref_move_after_download_title">Move after download</string>
+    <string name="pref_move_after_download_in_title">Move after download in</string>
+    <string name="pref_delete_file_if_error_title">Delete file if an error occurs</string>
+    <string name="pref_preallocate_disk_space_title">Pre-allocate disk space for the file</string>
+    <string name="pref_preallocate_disk_space_summary">Available for Android 5.0 Lollipop and above</string>
+    <string name="cannot_open_file_chooser">No se puede abrir el selector de archivos</string>
+    <string name="confused_desc">Si no está seguro de algo, por favor háganoslo saber.</string>
+    <string name="default_search_engine_desc">Seleccione el motor de búsqueda predeterminado, mientras busca en la web</string>
+    <string name="downloas">Descargas</string>
+    <string name="enjoy_using_our_app">Disfruta usando nuestra aplicación?</string>
+    <string name="facebook_firebase_consent_desc">Hacemos nuestro mejor esfuerzo para proporcionar una gran experiencia de usuario a nuestro usuario. Es por eso que monitoreamos nuestra aplicación a través de Firebase y Facebook. Eso puede recopilar algunos datos analíticos sobre la aplicación.</string>
+    <string name="feedback_desc">En caso de cualquier error o sugerencia, por favor escríbanos. Nos pondremos en contacto con usted lo antes posible.</string>
+    <string name="forward">Adelante</string>
+    <string name="happy_desc">Nos encantaría saber cómo podemos hacer que Incognito Browser sea aún mejor. Y le agradecería que dejara un comentario en Google Play Store.</string>
+    <string name="how_do_you_feel">¿Cómo te sientes acerca de esta aplicación?</string>
+    <string name="rate">Tarifa</string>
+    <string name="rate_desc">Cuéntanos qué te parece esta aplicación.</string>
+    <string name="refresh">Refrescar</string>
+    <string name="remove_ads_desc">Deshágase de los molestos anuncios de toda la aplicación para toda la vida [50% de DESCUENTO]</string>
+    <string name="search_anything">Introduzca la URL o busque algo aquí</string>
+    <string name="share_desc">Comparte esta aplicación con amigos</string>
+    <string name="share_this_app_with">Toma este increíble y fácil de usar navegador web de incógnito, aquí:</string>
+    <string name="unhappy_desc">¿Puedes por favor compartir lo que te hizo infeliz? para que podamos solucionarlo y hacer que tu experiencia sea feliz</string>
+    <string name="user_agent_desc">Cambiar agente de usuario. Te permite imitar otros navegadores.</string>
+    <string name="enable_images">Habilitar imagenes</string>
+    <string name="enable_java_script">Habilitar Javascript</string>
+    <string name="exit_app">Salida</string>
+    <string name="extras">Extras</string>
+    <string name="full_screen_mode">Modo de pantalla completa</string>
+    <string name="go_premium">Hazte Premium</string>
+    <string name="happy">Feliz</string>
+    <string name="home">Casa</string>
+    <string name="network_unavailable">Red no disponible</string>
+    <string name="open">Abierta</string>
+    <string name="open_in_new">Abrir en una pestaña nueva</string>
+    <string name="post_on_facebook">Publicar en Facebook</string>
+    <string name="save">Descargar imagen</string>
+    <string name="search_privately">Búsqueda Privada</string>
+    <string name="submit">Enviar</string>
+    <string name="tell_your_friend">Dile a tu amigo</string>
+    <string name="tweet_about_us">¡Tweet sobre nosotros!</string>
+    <string name="unhappy">Infeliz</string>
+    <string name="user_agent">Agente de usuario</string>
+    <string name="write_a_review">Escribe una reseña</string>
+    <string name="Share">Compartir</string>
+    <string name="_continue">Continuar</string>
+    <string name="browsing_experience">Experiencia de navegación</string>
+    <string name="choose_one">Elige uno</string>
+    <string name="choose_upload">Subir con</string>
+    <string name="confused">Confusa</string>
+    <string name="contact_our_team">Contacta con nuestro equipo</string>
+    <string name="copied">Copiado</string>
+    <string name="copy">Dupdo</string>
+    <string name="copyUrl">Copiar URL</string>
+    <string name="default_search_engine">Motor de búsqueda predeterminado</string>
+    <string name="default_user_agent">Motor de usuario predeterminado</string>
+    <string name="feedback">Realimentación</string>
+    <string name="remove_ads">Quitar anuncios</string>
+    <string name="view">Ver</string>
+    <string name="coffee_minimum_error_message">Lo siento pero el precio mínimo del café en el país del desarrollador es de 2 $.</string>
+    <string name="donation_desc">Compre un café para que el desarrollador lo mantenga activo Y trabaje una hora más para continuar mejorando esta aplicación</string>
+    <string name="donation_title">Desarrollador es sediento</string>
+    <string name="help_him">Ayudalo</string>
+    <string name="help_us">Ayúdanos</string>
+    <string name="help_us_desc">Ayúdanos a mejorar la aplicación. No lleva más de 30 segundos.</string>
+    <string name="is_amazing">es asombroso</string>
+    <string name="is_good_have_a_look">Es bueno, echale un vistazo!</string>
+    <string name="let_him_die">Dejalo morir</string>
+    <string name="let_go">Vamonos</string>
+    <string name="not_now">Ahora no</string>
+    <string name="press_back_again">Por favor, haga clic en VOLVER de nuevo para salir</string>
+    <string name="purchased_desc">\"Ha adquirido con éxito este producto \\n. Háganos saber si todavía ve esos anuncios molestos. Puede enviarnos un correo electrónico aquí: andbullofficial@gmail.com \\n \\nGracias\"</string>
+    <string name="purchased_title">Genial</string>
+    <string name="thank_you">Gracias :)</string>
+    <string name="welcome_note">Las páginas que ves en Incognito Browser no se quedarán. Una vez que salga de la aplicación, todo se borrará, incluido su historial de navegación, caché, cookies, etc. Sin embargo, los archivos descargados y su historial se conservarán.</string>
+    <string name="welcome_to_incognito_browser">Bienvenido a Incognito Browser</string>
+</resources>
